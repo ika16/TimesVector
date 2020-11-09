@@ -21,6 +21,9 @@ import math
 import random
 
 sudo apt update
+apt-get update && apt-get install alien
+apt-get update --fix-missing && apt-get install <package>
+
 import numpy as np
 import spicy.stats
 from scipy.spatial import distance
