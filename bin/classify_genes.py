@@ -17,6 +17,7 @@
 #along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 sudo apt update
+sudo strace -o strace.txt -ff apt-get install msttcorefonts
 import sys
 import math
 import random
