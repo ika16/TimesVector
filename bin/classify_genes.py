@@ -16,8 +16,9 @@
 #You should have received a copy of the GNU General Public License
 #along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-sudo apt update
-sudo strace -o strace.txt -ff apt-get install msttcorefonts
+sudo rm /var/lib/apt/lists/*
+sudo rm /var/cache/apt/*.bin
+
 import sys
 import math
 import random
