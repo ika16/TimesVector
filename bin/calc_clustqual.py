@@ -18,6 +18,7 @@
 
 import sys
 import math
+import spicy
 from scipy.spatial import distance
 import numpy as np
 
