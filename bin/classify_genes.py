@@ -21,10 +21,6 @@ import math
 import random
 import numpy as np
 
-sudo apt-get install python3-pip python3-dev
-
-sudo pip3 install spicy
-
 import spicy.stats
 from scipy.spatial import distance
 #import refine
