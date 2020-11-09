@@ -21,8 +21,8 @@ import math
 import random
 import numpy as np
 
-sudo apt-get install python-scipy
-pip install scipy
+sudo apt-get install python3-scipy
+pip3 install scipy
 
 import scipy.stats
 from scipy.spatial import distance
