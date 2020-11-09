@@ -16,7 +16,7 @@
 #You should have received a copy of the GNU General Public License
 #along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-$sudo-apt get upgrade --fix-missing
+$ sudo-apt get upgrade --fix-missing
 
 import sys
 import math
