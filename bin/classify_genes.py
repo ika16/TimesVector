@@ -21,11 +21,11 @@ import math
 import random
 import numpy as np
 
-wget https://bootstrap.pypa.io/get-pip.py
-sudo python3 get-pip.py   # for python 3.x
-pip3 install scipy    # for python 3.x
+sudo apt-get install python3-pip python3-dev
 
-import scipy.stats
+sudo pip3 install spicy
+
+import spicy.stats
 from scipy.spatial import distance
 #import refine
 
