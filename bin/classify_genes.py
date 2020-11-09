@@ -20,7 +20,6 @@ import sys
 import math
 import random
 import numpy as np
-
 import spicy.stats
 from scipy.spatial import distance
 #import refine
