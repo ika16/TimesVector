@@ -16,8 +16,7 @@
 #You should have received a copy of the GNU General Public License
 #along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-sudo rm /var/lib/apt/lists/*
-sudo rm /var/cache/apt/*.bin
+sudo-apt get upgrade --fix-missing
 
 import sys
 import math
