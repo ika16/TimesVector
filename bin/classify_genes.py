@@ -21,7 +21,7 @@ import math
 import random
 import numpy as np
 import scipy.stats
-from scipy.spatial import distance
+from spicy.spatial import distance
 #import refine
 
 
